@@ -28,6 +28,7 @@
     --font-color:#90979f;
     --text-color: #000;                                                      
 }
+
 .dark-theme{
     --bg-color:#000;
     --bg-color-white: #000;
@@ -37,7 +38,6 @@
     --text-color: #fff;  
 
 }
-
 
 
 ::-webkit-scrollbar {
@@ -669,9 +669,7 @@ section{
     margin-top: 8rem;
     border-radius: 10px;
     padding: 0rem 2rem;
-    z-index: 1;
-
-    
+    z-index: 1;  
 }
 
 .proposal img{
@@ -749,7 +747,6 @@ section{
 
 .fillter-buttons button{
     background: var(--gradient-white-bg2);
-
     padding: 12px 15px;
     border-radius: 5px;
     border: none;
@@ -790,7 +787,6 @@ section{
     background: var(--gradient-white-bg2-new);
     border-radius: 10px;
     transition: all .3s ease;
-
     border: 1px solid #fff;
 }
 
@@ -1295,9 +1291,6 @@ footer{
 }
 
 @media(max-width:768px){
-    .proposal{
-        display: none;
-    }
     .menu-icon .bar,.menu-icon::after,.menu-icon::before{
         display: block;
     }
