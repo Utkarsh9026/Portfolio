@@ -1169,24 +1169,6 @@ footer{
     font-size: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*======================= @keyframes ============================ */
 
 @keyframes moveText{
@@ -1361,7 +1343,7 @@ footer{
     }
     .text-animate{
         width: 24.8rem;
-    }
+    }   
     .btn-box{
         width: 300px;
         margin-bottom: 3rem;
@@ -1376,5 +1358,10 @@ footer{
     .fillter-buttons button{
         width: 100%;
         padding: 13px;
+    }
+}
+@media(max-width:417px){
+    .btn{
+        display: flex;      
     }
 }
